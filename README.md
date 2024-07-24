@@ -4,7 +4,7 @@ In this lab we will dive more into how each of the logic gates function, and fin
 
 ## Discussing Resource Usage
 
-For any given logic circuit, be they in an FPGA or otherwise, we will need to use a certain combination of logic gates. These gates, as you've seen in your class, are built out of physical transistors, and as such, are constrained in their total count within any given system. Therefore, there's a limit to how complicated any solution can grow and still fit within the requirements of the system. Therefore, using resources wisely is an extremely important skill for digial logic designers.
+For any given logic circuit, be they in an FPGA or otherwise, we will need to use a certain combination of logic gates. These gates, as you've seen in your class, are built out of physical transistors, and as such, are constrained in their total count within any given system. Therefore, there's a limit to how complicated any solution can grow and still fit within the requirements of the system. Therefore, using resources wisely is an extremely important skill for digital logic designers.
 
 When making an FPGA chip, the designers have to make a guess at the circuits their customers will design and place on the chip. They can't know exactly the circuit any engineer will design, and thus have to intelligently use up physical die space in the most efficient way possible. This begs the question -- how do we divvy up how many AND, OR, NOT, etc gates are present on the chip? What if someone has an OR heavy design? Or a AND heavy design? The FPGA may end up being extremely ineffective in some use cases.
 
@@ -70,7 +70,7 @@ We can see from the truth tables that these are equivalent. This means we have a
 | 1   | 0   | IMPOSSIBLE |
 | 1   | 1   | 0          |
 
-That means each of these gates with their inputs tied together act as an inverter. Now, with DeMorgan's rule and the inverting capability of our gates, we can transform any logic circutit into just NAND or NOR gates.
+That means each of these gates with their inputs tied together act as an inverter. Now, with DeMorgan's rule and the inverting capability of our gates, we can transform any logic circuit into just NAND or NOR gates.
 
 ## Assignment
 
