@@ -83,7 +83,13 @@ Use DeMorgan's law with the information above to turn this equation into somethi
 ### Breadboard Information
 
 Overview: 
+
 ![Breadboard Overview](img/breadboard_overview.png)
 
 Wiring guidance:
+
 ![Wiring Guidance](img/wiring_guidance.png)
+
+Chip Pinout:
+
+![Chip Pinout](img/chip_pinout.png)
